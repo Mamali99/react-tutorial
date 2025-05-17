@@ -1,9 +1,11 @@
+import Fruits from "./components/Fruits";
 import Hello from "./components/Hello";
 function App() {
-  return <>
-    <Hello />
-    <h1>test</h1>
-  </>;
+  return (
+    <>
+      <Fruits />
+    </>
+  );
 }
 
-export default App
+export default App;

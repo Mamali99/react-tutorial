@@ -1,4 +1,10 @@
-function Hello() {
-  return <h1>Hello from Hello-component2</h1>;
+function Hello({ person }) {
+  return (
+    <div>
+      <h1>
+        {person.message} {person.name} {person.seatNumber}
+      </h1>
+    </div>
+  );
 }
 export default Hello;
