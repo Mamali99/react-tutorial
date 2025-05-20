@@ -3,6 +3,7 @@ function Hello({ person }) {
     <div>
       <h1>
         {person.message} {person.name} {person.seatNumber}
+        <h2>from Hello</h2>
       </h1>
     </div>
   );
